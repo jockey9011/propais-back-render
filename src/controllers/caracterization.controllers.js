@@ -4,7 +4,6 @@ const Capitalization = require('../models/Capitalization');
 const csvParser = require('csv-parser');
 const fs = require('fs');
 const path = require('path');
-const { uploadPath } = require('../routes/caracterization.router'); 
 
 
 
