@@ -12,7 +12,7 @@ const main = async () => {
         
         // Configuración de CORS
         app.use(cors({
-            origin: 'https://il30-propais.netlify.app',
+            origin: 'https://propais-front-netlify.vercel.app',
             methods: ['GET', 'POST'],
             allowedHeaders: ['Content-Type', 'Authorization'],
         }));
