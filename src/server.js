@@ -13,6 +13,7 @@ const main = async () => {
         // Configuración de CORS
         app.use(cors({
             origin: 'https://il30-propais.netlify.app',
+            credentials: true,
             methods: ['GET', 'POST'],
             allowedHeaders: ['Content-Type', 'Authorization'],
         }));
